@@ -1,0 +1,33 @@
+{
+  "name": "syftime",
+  "version": "1.1.0",
+  "description": "time input",
+  "main": "./dist/syfTime.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "webpack-dev-server --hot --inline",
+    "build": "webpack --display-error-details --config webpack.config.js"    
+  },
+  "keywords": [
+    "time",
+    "init",
+    "count",
+    "down"
+  ],
+  "author": "605729908@qq.com",
+  "license": "ISC",
+  "devDependencies": {
+    "babel-core": "^6.26.0",
+    "babel-loader": "^7.1.2",
+    "babel-plugin-transform-object-rest-spread": "^6.26.0",
+    "babel-plugin-transform-runtime": "^6.23.0",
+    "babel-polyfill": "^6.26.0",
+    "babel-preset-es2015": "^6.24.1",
+    "css-loader": "^0.28.7",
+    "es6-promise": "^4.1.1",
+    "url-loader": "^0.6.2",
+    "webpack": "^3.9.1",
+    "webpack-dev-server": "^2.9.5",
+    "moment": "^2.24.0"
+  }
+}
